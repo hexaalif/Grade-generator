@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+    <h1 class="text-center my-5">Grade Generator</h1>
+    <div> 
+        
+        <div class="row my-5">
+            <div class="col-md-6 text-center">
+                <h3 class=" mb-2 text-white border border-4 border-info rounded-pill p-2">Grade Details</h3>
+                <!-- <ul class=""> -->
+                    <p><b>A+ range is 100 to 90</b></p>
+                    <p><b>A range is 89 to 80</b></p>
+                    <p><b>B range is 79 to 70</b></p>
+                    <p><b>C range is 69 to 60</b></p>
+                    <p><b>D range is 59 to 50</b></p>
+                    <p><b>F range is 49 to 0</b></p>
+                <!-- </ul> -->
+            </div>
+            <div class="col-md-6 text-center">
+                <h3 class=" mb-2 text-white border border-4 border-info rounded-pill p-2">Grade Result</h3>
+                <input type="text" id="input" placeholder="Type your mark" class="p-3 w-50 rounded-pill mt-5 border-0">
+                <button class="p-3 border-0 fw-bold bg-success text-white mt-5 rounded-pill" onclick="gradebtn()">My Grade</button>
+                <h3 class="my-3" id="result"></h3>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p class="text-white text-center mt-5 pt-5">All &copy; Copyright reserved by <b>SUSA</b></p>
+    </footer>
+
+
+    <!-- script links here  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="grade.js"></script>
+</body>
+</html>
